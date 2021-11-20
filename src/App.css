@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+html {
+    background: #23252C;
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    height: 100%;
+}
+
+body {
+    font-size: 1.6rem;
+    height: 100%;
+    margin: 0 auto;
+    max-width: 32rem;
+}
+
+img {
+    height: 100%;
+    object-fit: contain;
+    width: 100%;
+}
+
+main {
+    background: #F5F5F5;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+}
+
+figure {
+    aspect-ratio: 1;
+    margin: 0;
+}
+
+h1,
+h2 {
+    color: #2B283A;
+    margin: 0;
+}
+
+h1 {
+    font-size: 25px;
+    margin-top: 1.6rem;
+}
+
+header {
+    text-align: center;
+}
+
+header h2 {
+    color: #F47D27;
+    font-size: 1.28rem;
+    margin: .8rem 0;
+}
+
+header a {
+    display: block;
+    text-decoration: none;
+}
+
+.website {
+    color: #4A4E74;
+    font-size: 1.024rem;
+    margin-bottom: 1.6rem;
+}
+
+.email {
+    align-items: center;
+    background: #fff;
+    border: .1rem solid #D1D5DB;
+    border-radius: .5rem;
+    box-shadow: 0 .1rem .2rem rgba(0, 0, 0, 0.05);
+    color: #4A4E74;
+    display: flex;
+    font-size: 1.4rem;
+    font-weight: 500;
+    gap: 1rem;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 24rem;
+    padding: .8rem;
+}
+
+.email img {
+    height: 1.6rem;
+    width: 1.6rem;
+}
+
+.info {
+    padding: 2.5rem 3.5rem 3.2rem;
+}
+
+.info p {
+    color: #4A4E74;
+    font-size: 1.024rem;
+    line-height: 1.536rem;
+    margin: .4rem 0 1.6rem;
+}
+
+footer {
+    background: #D5D4D8;
+}
+
+.social {
+    align-items: center;
+    display: flex;
+    gap: 3.2rem;
+    justify-content: center;
+    list-style: none;
+    margin: 1.6rem auto;
+    padding: 0;
+}
+
+.social a {
+    display: flex;
+    height: 3rem;
+    width: 3rem;
+}

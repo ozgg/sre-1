@@ -1,5 +1,6 @@
 import React from "react";
 import Figure from "./Figure";
+import email from "../images/email.svg";
 
 export default function Header() {
     return(
@@ -14,6 +15,7 @@ export default function Header() {
                     ozgg.ru
                 </a>
                 <a href="mailto:maxim.km@gmail.com" className="email">
+                    <img src={email} alt=""/>
                     <span>Email</span>
                 </a>
             </div>
